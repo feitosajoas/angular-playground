@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CookieHelper } from '../helpers/cookie-helper';
 import { Cookie } from '../models/cookie.model';
 
 @Component({

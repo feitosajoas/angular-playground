@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CookieHelper } from './helpers/cookie-helper';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-playground';
+
+  checkCookies() {
+    return CookieHelper.checkCookie();
+  }
 }
