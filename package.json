@@ -19,6 +19,8 @@
     "@angular/platform-browser": "~11.2.3",
     "@angular/platform-browser-dynamic": "~11.2.3",
     "@angular/router": "~11.2.3",
+    "@syncfusion/ej2-angular-popups": "^19.1.63",
+    "@syncfusion/ej2-angular-richtexteditor": "^19.1.63",
     "bootstrap": "^5.0.1",
     "ngx-editor": "^9.0.2",
     "rxjs": "~6.6.0",
