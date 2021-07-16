@@ -8,8 +8,7 @@ import { RichTextComponent } from './rich-text/rich-text.component';
 import { NgxEditorModule } from 'ngx-editor';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RichTextSfComponent } from './rich-text-sf/rich-text-sf.component';
-// import { RichTextEditorAllModule } from '@syncfusion/ej2-angular-richtexteditor';
-// import { DialogModule } from '@syncfusion/ej2-angular-popups';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -21,6 +20,7 @@ import { RichTextSfComponent } from './rich-text-sf/rich-text-sf.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
     //RichTextEditorAllModule,
