@@ -7,15 +7,13 @@ import { AcceptCookieComponent } from './accept-cookie/accept-cookie.component';
 import { RichTextComponent } from './rich-text/rich-text.component';
 import { NgxEditorModule } from 'ngx-editor';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { RichTextSfComponent } from './rich-text-sf/rich-text-sf.component';
 import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
     AppComponent,
     AcceptCookieComponent,
-    RichTextComponent,
-    RichTextSfComponent
+    RichTextComponent
   ],
   imports: [
     BrowserModule,
@@ -23,8 +21,6 @@ import { HttpClientModule } from '@angular/common/http'
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    //RichTextEditorAllModule,
-    // DialogModule,
     NgxEditorModule.forRoot({locals: {
       // menu
       bold: 'Bold',
